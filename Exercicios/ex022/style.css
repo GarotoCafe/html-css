@@ -1,0 +1,20 @@
+h1 {
+    background-color: #fdd3c2;
+    height: 300px;
+    width: 300px;
+    
+    border: 10px solid #f07777;
+
+    padding: 10px;
+    
+    margin: 20px auto 40px auto;
+
+    outline: 5px dashed #fd9df8d3;
+}
+
+
+a {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffdbe0;
+}

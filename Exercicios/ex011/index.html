@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="oikawa01.ico" type="image/x-icon">
+    <style>
+        body {background-color: indigo;}
+    </style>
+    
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em cários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(min-width: 750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+    <source src="midia/duskilldawn.mp3" type="audio/mpeg">
+    <source src="midia/duskilldawn.ogg" type="audio/ogg">
+    <source src="midia/duskilldawn.wav" type="audio/wav">
+    </audio>
+    <p>Infelismente seu navegador não consegue reproduzir audio. <a href="midia/duskilldawn.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+</body>
+</html>

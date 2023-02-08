@@ -1,0 +1,35 @@
+.input-group {
+    width: fit-content;
+    position: relative;
+    margin-block: 1rem;
+}
+
+.input-group input {
+    outline: 2px solid #6d67e4;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: transparent;
+    caret-color: #6d67e4;
+    transition: 0.2s;
+    color: #fff;
+}
+
+.input-group label {
+    position: absolute;
+    transform: translate(5px, 4px);
+    color: rgb(241, 0, 0);
+    scale: 0.8;
+    transition: 0.2s;
+
+}
+
+.input-group input:focus,input:valid {
+    outline: 2px solid #46c2cb;
+}
+
+input:focus + label,
+input:focus + label {
+    transform: translate(6-px, -24px);
+    scale: 0.9;
+}
