@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: lightblue;
+        }
+        a:hover {
+            transition: .5s;
+            color: rgb(89, 106, 112);
+        }
+        #tela {
+            width: 90vw;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae at aperiam expedita nobis explicabo illo, impedit laborum ab ipsum consequatur vero esse dignissimos earum assumenda accusantium quis accusamus minima omnis?</p>
+
+    <ul>
+        <li><a href="paginas-extra/pag001.html" target="frame">Primeiro item</a></li>
+        <li><a href="paginas-extra/pag002.html" target="frame">Segundo item</a></li>
+        <li><a href="paginas-extra/pag003.html" target="frame">Terceiro item</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque perferendis in sapiente, odit asperiores dicta beatae non praesentium expedita nam ad iure neque molestiae error libero saepe id laboriosam fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, optio dolorum mollitia praesentium qui reprehenderit, nostrum repellat ipsum aut omnis incidunt illo consectetur amet? Quod unde sapiente eveniet deserunt assumenda.</p>
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum iure aspernatur asperiores minima praesentium possimus, aut ipsa. Ex minima odit rerum iste repellendus praesentium voluptate qui sequi. Facere, explicabo aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae omnis voluptatum eaque ut molestiae quisquam vero dignissimos dicta alias a. Iusto ipsa culpa a cum sequi minus saepe eos velit.</p><img src='.imagens/kurona-icon'>">
+        <p>Infelizmente seu navegador não é compativel com isso</p>
+    </iframe>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum iure aspernatur asperiores minima praesentium possimus, aut ipsa. Ex minima odit rerum iste repellendus praesentium voluptate qui sequi. Facere, explicabo aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae omnis voluptatum eaque ut molestiae quisquam vero dignissimos dicta alias a. Iusto ipsa culpa a cum sequi minus saepe eos velit.</p>
+</body>
+</html>
