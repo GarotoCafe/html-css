@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="oikawa01.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadrastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imasculino" value="M"><label for="imasculino">Masculino</label> <br>
+            <input type="radio" name="sexo" id="ifem" value="F"><label for="ifem">Feminino</label> <br>
+            <input type="radio" name="sexo" id="inb" value="NB"><label for="inb">Prefiro não dizer</label> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esvolei" id="iesvolei"><label for="iesvolei">Volei</label><br>
+            <input type="checkbox" name="esbas" id="iesbaque"><label for="iesbasque">Basquete</label><br>
+            <input type="checkbox" name="esboxe" id="iesboxe"><label for="iesboxe">Boxe</label><br>
+        </fieldset>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
