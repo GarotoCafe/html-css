@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="oikawa01.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <h1>Exemplo de formulário</h1>
+        <form action="cadrastro.php" method="post" autocomplete="on">
+
+            <p>
+                <label for="iest">Estado</label>
+                <select name="estado" id="iest">
+                    <option value="">Escolha seu estado</option>
+                    <optgroup label="Região Sul">
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="PR">Parana</option>
+                    </optgroup>
+
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                </select>
+            </p>
+                <label for="iprof">Profissão: </label>
+                <input type="text" name="prof" id="iprof" list="ilsprof">
+                <datalist id="ilsprof">
+                    <option value="DEV">Desenvovedor</option>
+                    <option value="BA">Barista</option>
+                    <option value="MED">Médico</option>
+                    <option value="AV">Atleta</option>
+                    <option value="CA">Cantor</option>
+                    <option value="AT">Artista</option>
+                </datalist>
+
+                <p>
+                    <label for="imens">Mensagem: </label> <br>
+                    <textarea name="" id="" cols="60" rows="10"></textarea>
+                </p>
+
+                
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+            
+        </form>
+</body>
+</html>
