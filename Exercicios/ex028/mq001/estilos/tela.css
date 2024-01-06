@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: rgb(243, 216, 181);
+    color: white;
+    border-radius: 10px;
+}
+
+header > h1 {
+    text-align: center;
+
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: rgb(241, 229, 187);
+    border-radius: 10px;
+}
+
+menu li {
+    background-color: rgb(253, 242, 201);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
+}
