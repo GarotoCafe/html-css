@@ -1,3 +1,23 @@
 @charset 'UTF-8';
 
 /* Estilo geral */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(167, 255, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 0px #000000;
+    padding: 10px;
+}
