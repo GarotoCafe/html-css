@@ -1,3 +1,54 @@
 @charset "UTF-8";
 
 /*Demais Versões */
+
+/* Typical Decive Breackpoint 
+
+320–480px: Mobile devices
+481–768px: Tablets and iPads
+769–1024px: Small screens and laptops
+1025–1200px: Large screens and desktops
+1201px and up: Extra large screens and TVs
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: url(../back-tablet.jpg);
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print{display: none;}
+    img#desk {display: none;}
+    img#tv{display: none;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+    body {
+        background-image: url(../back-pc.jpg);
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print{display: none;}
+    img#desk {display: block;}
+    img#tv{display: none;}
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    body {
+        background-image: url(../back-tv.jpg);
+    }
+
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print{display: none;}
+    img#desk {display: none;}
+    img#tv{display: block;}
+    
+}
